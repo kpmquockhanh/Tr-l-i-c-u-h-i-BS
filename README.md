@@ -5,7 +5,7 @@ Tại vì bản alpha đang phát triển nên có thể thay đổi bất cứ 
 # Chuyển từ sử dụng less sang sử dụng sass
 Điểm khác biệt: 
 
-## Les
+## Less
 - Viết trên javascript
 - Sử dụng tiền tố @ cho biến
 - Import cần phần mở rộng
