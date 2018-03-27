@@ -6,38 +6,33 @@ Nhưng vì bản alpha đã bao gồm toàn bộ các tính năng nên có thể
 # Chuyển từ sử dụng less sang sử dụng sass
 Điểm khác biệt: 
 
-Les
-Sass
-Viết trên javascript
-Viết trên ruby
-Sử dụng tiền tố @ cho biến
-Sử dụng tiền tố $ cho biến
-Import cần phần mở rộng
-Không cần
-
-
-
-
-
+## Les
+- Viết trên javascript
+- Sử dụng tiền tố @ cho biến
+- Import cần phần mở rộng
+## Sass
+- Viết trên ruby
+- Sử dụng tiền tố $ cho biến
+- Không cần phần mở rộng
 # Điểm mới trong bs4
-Chuyển hệ tính từ pixel sang rem
+## Chuyển hệ tính từ pixel sang rem
 BS4 đã chuyển sang dùng đơn vị tương đối rem thay vì dùng đơn vị tuyệt đối px điều này làm nó có kích thước co dãn tốt hơn. 
 Không còn hỗ trợ IE8
 Động thái hướng đến việc sử dụng flexbox thật sự đã thúc đẩy một thay đổi khác: hỗ trợ trình duyệt. Bootstrap v4 đã chính thức loại bỏ sự hỗ trợ cho Internet Explorer 8, 9 và iOS 6. Điều này có nghĩa là các trang Bootstrap của bạn sẽ chỉ hỗ trợ IE10 + và iOS 7+
 
-# Flex là một tuỳ chọn
+## Flex là một tuỳ chọn
 Nếu bạn không muốn sử dụng flex bạn có thể tắt nó trong _variable.scss và rebuild lại.
-# Bỏ Glyphicons Font
+## Bỏ Glyphicons Font
 Nhiều khi Glyphicon không hiển thị trong một vài thiết bị, do đó bs4 bỏ nó và chúng ta sẽ phải tự bao gồm. Thông thường e hay dùng fontawesome.
-# Thay thế Panel bằng Card
+## Thay thế Panel bằng Card
 BS4 đã loại bỏ panel, well, thumbnail thay vào đó là khuyến khích sử dụng thành phần card mới thay thế.
-# Thêm Outline button
+## Thêm Outline button
 Bổ sung thêm một phong cách button đơn giản mà đẹp, mới màu sắc chỉ bọc ngoài đường viền.
 Cách sử dụng: “btn btn-outline-primary”
-# Spacing
+## Spacing
 Cấu trúc :[margin or padding]-[direction]-[size]
 Ví dụ: “ml-lg-4”, “pb-sm-2”
-# Display 
+## Display 
 Bổ sung một số class mới từ Display-1 tới Display-4
 Giúp làm nổi bật tiêu đề tốt hơn.
 # Nêu các ưu điểm của flexbox?
