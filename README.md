@@ -1,6 +1,5 @@
 # Tại sao không nên dùng bản alpha cho dự án của mình?
-Tại vì bản alpha chưa hoàn chỉnh có thể có bug nào đó không mong muốn
-Nhưng vì bản alpha đã bao gồm toàn bộ các tính năng nên có thể dùng để tìm hiểu trước.
+Tại vì bản alpha đang phát triển nên có thể thay đổi bất cứ lúc nào và nó chưa hoàn chỉnh có thể có bug nào đó không mong muốn.
 
 
 # Chuyển từ sử dụng less sang sử dụng sass
@@ -11,15 +10,19 @@ Nhưng vì bản alpha đã bao gồm toàn bộ các tính năng nên có thể
 - Sử dụng tiền tố @ cho biến
 - Import cần phần mở rộng
 ## Sass
+- Hỗ trợ css3
+- Gần giống ngôn ngữ lập trình
 - Viết trên ruby
 - Sử dụng tiền tố $ cho biến
 - Không cần phần mở rộng
 # Điểm mới trong bs4
+## Có thêm module reboot
+Tạo ra một nền tảng cơ bản nhất quán nhất.
+## Js được compile từ ES6
 ## Chuyển hệ tính từ pixel sang rem
 BS4 đã chuyển sang dùng đơn vị tương đối rem thay vì dùng đơn vị tuyệt đối px điều này làm nó có kích thước co dãn tốt hơn. 
 Không còn hỗ trợ IE8
 Động thái hướng đến việc sử dụng flexbox thật sự đã thúc đẩy một thay đổi khác: hỗ trợ trình duyệt. Bootstrap v4 đã chính thức loại bỏ sự hỗ trợ cho Internet Explorer 8, 9 và iOS 6. Điều này có nghĩa là các trang Bootstrap của bạn sẽ chỉ hỗ trợ IE10 + và iOS 7+
-
 ## Flex là một tuỳ chọn
 Nếu bạn không muốn sử dụng flex bạn có thể tắt nó trong _variable.scss và rebuild lại.
 ## Bỏ Glyphicons Font
