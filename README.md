@@ -60,9 +60,9 @@ Bạn chỉ cần điều chỉnh kích thước một lần là nó sẽ tự �
 - Hỗ trợ trực tiếp nhị phân bát phân
 ## BS sử dụng ES6 để compile js
 # Cách ghi đè variable của bootstrap?
-    - Tạo file custom variable.scss định nghĩa các biến mới
-    - Import vào sau file _variable.scss của bs
+- Tạo file custom variable.scss định nghĩa các biến mới
+- Import vào sau file _variable.scss của bs
 # Mô tả  basic workflow của sass với bs4 được giới thiệu trong video?
-    - Sử dụng source của BS compile lại sass kết hợp với custom scss của mình.
-    - Tắt tất cả các component, untility trong boostrap.scss
-    - Trong quá trình code sử dụng đến phần nào thì bật phần đó lên tránh bật thừa những component, untility không sử dụng.
+- Sử dụng source của BS compile lại sass kết hợp với custom scss của mình.
+- Tắt tất cả các component, untility trong boostrap.scss
+- Trong quá trình code sử dụng đến phần nào thì bật phần đó lên tránh bật thừa những component, untility không sử dụng.
